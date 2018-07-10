@@ -53,7 +53,7 @@ public class Webserver extends CordovaPlugin {
      * @param callbackContext
      */
     private void start(JSONArray args, CallbackContext callbackContext) throws JSONException, IOException {
-        int port = 8080;
+        int port = 5777;
 
         if (args.length() == 1) {
             port = args.getInt(0);
